@@ -1,0 +1,6 @@
+MONGOOSE "findOneAndUpdate()" SYNTAX
+<ModelName>.findOneAndUpdate(
+    {conditions},
+    {$pull: {field: {_id: value}}},
+    function(err, results){}
+);
